@@ -1,0 +1,12 @@
+01/23/2024 22:08:11 => [Info] UIPATH_PROJECT execution started
+01/23/2024 22:08:12 => [Info] Audit: Using Graph. Account: caleb.naidoo@firtech.co.za
+01/23/2024 22:08:13 => [Info] Audit: Send Graph Mail. To: rmr13691@gmail.com CC:  Draft: True
+01/23/2024 22:08:13 => [Error] Sent email if the email subject does not have payment
+01/23/2024 22:08:28 => [Info] Audit: Using Excel File: C:\UIPATH_PROJECT\INPUT\ERPUpload.xlsx
+01/23/2024 22:08:28 => [Info] Audit: Send Graph Mail. To: rmr13691@gmail.com CC:  Draft: True
+01/23/2024 22:08:29 => [Info] InvoiceA (3).pdf Sent Email with EXTRACTED INVOICE DETAILS
+01/23/2024 22:08:29 => [Info] Audit: Using Excel File: C:\UIPATH_PROJECT\INPUT\ERPUpload.xlsx
+01/23/2024 22:08:29 => [Info] Audit: Send Graph Mail. To: rmr13691@gmail.com CC:  Draft: True
+01/23/2024 22:08:30 => [Error] More than one or no attachments
+01/23/2024 22:08:43 => [Error] C:\UIPATH_PROJECT\INPUT\InvoiceB (4).pdf - Balance is Unsuccessful. Invoice is rejected
+01/23/2024 22:08:43 => [Info] UIPATH_PROJECT execution ended in: 00:00:31

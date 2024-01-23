@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1416.8,8022.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System.Text.RegularExpressions" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1416.8,8243.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System.Text.RegularExpressions" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -160,7 +160,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1427.2,7957.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1427.2,8178.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="C:\UIPATH_PROJECT\INPUT" Name="attachmentPath" />
       <Variable x:TypeArguments="x:String" Name="senderEmail" />
@@ -190,7 +190,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <umab:ExchangeApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" SharedMailbox="{x:Null}" Account="caleb.naidoo@firtech.co.za" DisplayName="Use Outlook 365" EmailAddress="caleb.naidoo@firtech.co.za" sap:VirtualizedContainerService.HintSize="1364.8,7845.6" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_2" UseConnectionService="False">
+    <umab:ExchangeApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" SharedMailbox="{x:Null}" Account="caleb.naidoo@firtech.co.za" DisplayName="Use Outlook 365" EmailAddress="caleb.naidoo@firtech.co.za" sap:VirtualizedContainerService.HintSize="1364.8,8066.4" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_2" UseConnectionService="False">
       <umab:ExchangeApplicationCard.ApplicationId>
         <InArgument x:TypeArguments="x:String">
           <Literal x:TypeArguments="x:String" Value="" />
@@ -201,14 +201,14 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Email" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="1331.2,7620.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
+          <Sequence sap:VirtualizedContainerService.HintSize="1331.2,7841.6" sap2010:WorkflowViewState.IdRef="Sequence_21">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <umab:ForEachEmailX MailFilter="{x:Null}" DisplayName="For Each Email" sap:VirtualizedContainerService.HintSize="1268.8,7508.8" sap2010:WorkflowViewState.IdRef="ForEachEmailX_3" IncludeSubfolders="False" Mails="[Email.Folder(&quot;Inbox&quot;)]" NumberOfEmailsLimit="4" UnreadOnly="True" WithAttachmentsOnly="False">
+            <umab:ForEachEmailX MailFilter="{x:Null}" DisplayName="For Each Email" sap:VirtualizedContainerService.HintSize="1268.8,7729.6" sap2010:WorkflowViewState.IdRef="ForEachEmailX_3" IncludeSubfolders="False" Mails="[Email.Folder(&quot;Inbox&quot;)]" NumberOfEmailsLimit="4" UnreadOnly="True" WithAttachmentsOnly="False">
               <umab:ForEachEmailX.Body>
                 <ActivityAction x:TypeArguments="snm:MailMessage, x:Int32">
                   <ActivityAction.Argument1>
@@ -217,7 +217,7 @@
                   <ActivityAction.Argument2>
                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                   </ActivityAction.Argument2>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1235.2,7244.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1235.2,7465.6" sap2010:WorkflowViewState.IdRef="Sequence_17">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -261,20 +261,20 @@
                         <InArgument x:TypeArguments="x:String">[currentMail.From.Address]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <If Condition="[currentMail.Subject.IndexOf(&quot;PAYMENT&quot;, StringComparison.OrdinalIgnoreCase) &gt;= 0]" sap:VirtualizedContainerService.HintSize="1172.8,6772" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If Condition="[currentMail.Subject.IndexOf(&quot;PAYMENT&quot;, StringComparison.OrdinalIgnoreCase) &gt;= 0]" sap:VirtualizedContainerService.HintSize="1172.8,6992.8" sap2010:WorkflowViewState.IdRef="If_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="1139.2,5916" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                        <Sequence sap:VirtualizedContainerService.HintSize="1139.2,6136.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <If Condition="[currentMail.Attachments.Count=1]" sap:VirtualizedContainerService.HintSize="1096,5826.4" sap2010:WorkflowViewState.IdRef="If_3">
+                          <If Condition="[currentMail.Attachments.Count=1]" sap:VirtualizedContainerService.HintSize="1096,6047.2" sap2010:WorkflowViewState.IdRef="If_3">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -282,7 +282,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence sap:VirtualizedContainerService.HintSize="1062.4,5059.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                              <Sequence sap:VirtualizedContainerService.HintSize="1062.4,5178.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -295,14 +295,14 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </umab:SaveMailAttachmentsX>
-                                <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="1019.2,4700" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="1019.2,4819.2" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="[invoiceINPUTFilePath]" sap:VirtualizedContainerService.HintSize="956.8,4588" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="LastUpdatedDateNewFirst" SkipFolderWithoutPermission="False">
+                                  <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="[invoiceINPUTFilePath]" sap:VirtualizedContainerService.HintSize="956.8,4707.2" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="LastUpdatedDateNewFirst" SkipFolderWithoutPermission="False">
                                     <ui:ForEachFileX.Body>
                                       <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                         <ActivityAction.Argument1>
@@ -311,20 +311,20 @@
                                         <ActivityAction.Argument2>
                                           <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                         </ActivityAction.Argument2>
-                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="923.2,4323.2" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="923.2,4442.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Always" DisplayName="Use Application: InvoiceA.pdf - Adobe Acrobat Reader (64-bit)" sap:VirtualizedContainerService.HintSize="860.8,4211.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="b83243dc-a87b-4461-85da-a17ba648b30b" Version="V2" WindowResize="Maximize">
+                                          <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Always" DisplayName="Use Application: InvoiceA.pdf - Adobe Acrobat Reader (64-bit)" sap:VirtualizedContainerService.HintSize="860.8,4330.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="b83243dc-a87b-4461-85da-a17ba648b30b" Version="V2" WindowResize="Maximize">
                                             <uix:NApplicationCard.Body>
                                               <ActivityAction x:TypeArguments="x:Object">
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                 </ActivityAction.Argument>
-                                                <Sequence DisplayName="Get data information " sap:VirtualizedContainerService.HintSize="827.2,3920" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                                <Sequence DisplayName="Get data information " sap:VirtualizedContainerService.HintSize="827.2,4039.2" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -474,7 +474,7 @@
                                                       <InArgument x:TypeArguments="x:Decimal">[Invoice_Value_Excluding_Tax+Invoice_Tax_Amount]</InArgument>
                                                     </Assign.Value>
                                                   </Assign>
-                                                  <If Condition="[calculatedTotal=Invoice_Value_Including_Tax]" sap:VirtualizedContainerService.HintSize="764.8,2746.4" sap2010:WorkflowViewState.IdRef="If_4">
+                                                  <If Condition="[calculatedTotal=Invoice_Value_Including_Tax]" sap:VirtualizedContainerService.HintSize="764.8,2865.6" sap2010:WorkflowViewState.IdRef="If_4">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -651,13 +651,13 @@
                                                       </Sequence>
                                                     </If.Then>
                                                     <If.Else>
-                                                      <Sequence sap:VirtualizedContainerService.HintSize="376.8,314.4" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                                      <Sequence sap:VirtualizedContainerService.HintSize="377.6,433.6" sap2010:WorkflowViewState.IdRef="Sequence_24">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[RejectedFilePath]" DisplayName="Move File if Balance is Unsuccessful" sap:VirtualizedContainerService.HintSize="333.6,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[PDF_File.FullName]">
+                                                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[RejectedFilePath]" DisplayName="Move File if Balance is Unsuccessful" sap:VirtualizedContainerService.HintSize="334.4,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[PDF_File.FullName]">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -665,11 +665,11 @@
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
                                                         </ui:MoveFile>
-                                                        <ui:LogMessage DisplayName="Log Message - Balance is unsuccessful" sap:VirtualizedContainerService.HintSize="333.6,24.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;Balance is Unsuccessful. Invoice is rejected&quot;]">
+                                                        <ui:LogMessage DisplayName="Log Message - Balance is unsuccessful" sap:VirtualizedContainerService.HintSize="334.4,144" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[PDF_File.FullName+&quot; - Balance is Unsuccessful. Invoice is rejected&quot;]">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
                                                         </ui:LogMessage>
@@ -701,7 +701,7 @@
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence sap:VirtualizedContainerService.HintSize="476.8,584" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                              <Sequence sap:VirtualizedContainerService.HintSize="476.8,685.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -728,11 +728,11 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </umab:SendMailX>
-                                <ui:LogMessage sap2010:Annotation.AnnotationText="&quot;Email Sent: More than one or no attachments&#xA;" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,84.8" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;More than one or no attachments&quot;]">
+                                <ui:LogMessage sap2010:Annotation.AnnotationText="&quot;Email Sent: More than one or no attachments&#xA;" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,186.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;More than one or no attachments&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -770,7 +770,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </umab:SendMailX>
-                          <ui:LogMessage sap2010:Annotation.AnnotationText="The subject of the email doesn't contain PAYMENT " DisplayName="LOG Messages" sap:VirtualizedContainerService.HintSize="433.6,173.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;Sent email if the subject does not have payment&quot;]">
+                          <ui:LogMessage sap2010:Annotation.AnnotationText="The subject of the email doesn't contain PAYMENT " DisplayName="LOG Messages" sap:VirtualizedContainerService.HintSize="433.6,173.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;Sent email if the email subject does not have payment&quot;]">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
