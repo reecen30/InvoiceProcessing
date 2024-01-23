@@ -554,7 +554,7 @@
                                                               </ActivityAction>
                                                             </ueab:ExcelProcessScopeX.Body>
                                                           </ueab:ExcelProcessScopeX>
-                                                          <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" Body="PLEASE FIND EXTRACTED INVOICE DETAILS FOR PAYMENT" BodyType="Text" DisplayName="Send Email with EXTRACTED INVOICE DETAILS" sap:VirtualizedContainerService.HintSize="625.6,425.6" sap2010:WorkflowViewState.IdRef="SendMailX_3" Importance="Normal" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="EXTRACTED INVOICE DETAILS" To="[senderEmail]" UseDocumentAsBody="False">
+                                                          <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" Body="PLEASE FIND EXTRACTED INVOICE DETAILS FOR THE PAYMENT" BodyType="Text" DisplayName="Send Email with EXTRACTED INVOICE DETAILS" sap:VirtualizedContainerService.HintSize="625.6,425.6" sap2010:WorkflowViewState.IdRef="SendMailX_3" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="EXTRACTED INVOICE DETAILS" To="[senderEmail]" UseDocumentAsBody="False">
                                                             <umab:SendMailX.Files>
                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="2">
                                                                 <InArgument x:TypeArguments="x:String">[FilePathPDF]</InArgument>
@@ -707,7 +707,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" DisplayName="Send Email if Attachments are Incorrect" sap:VirtualizedContainerService.HintSize="433.6,369.6" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="More than one or no attachments" To="[senderEmail]" UseDocumentAsBody="False">
+                                <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" DisplayName="Send Email if Attachments are Incorrect" sap:VirtualizedContainerService.HintSize="433.6,369.6" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="More than one or no attachments" To="[senderEmail]" UseDocumentAsBody="False">
                                   <umab:SendMailX.Files>
                                     <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                   </umab:SendMailX.Files>
@@ -749,7 +749,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" DisplayName="Send Email if the subject does not have Payment" sap:VirtualizedContainerService.HintSize="433.6,369.6" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Subject doesn't contain PAYMENT" To="[senderEmail]" UseDocumentAsBody="False">
+                          <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Email]" DisplayName="Send Email if the subject does not have Payment" sap:VirtualizedContainerService.HintSize="433.6,369.6" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Subject doesn't contain PAYMENT" To="[senderEmail]" UseDocumentAsBody="False">
                             <umab:SendMailX.Files>
                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                             </umab:SendMailX.Files>
